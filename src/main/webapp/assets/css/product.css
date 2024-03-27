@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+select,input {
+   padding: 0.5rem  0.02rem;
+   width : 12rem;
+}
+button {
+   padding: 0.4rem  0.02rem;
+   width : 8rem; 
+}
+.search {
+   padding: 0.5rem  0.02rem;
+   margin:auto;
+   width:1200px;
+}
+
+ul {
+	list-style: none;
+	width: 50rem;
+	margin:auto;
+	padding-right:20rem;
+}
+
+ul .row {
+	display: flex;
+	width: 65rem;
+}
+
+ul .row > li {
+	padding: 0.5rem 0.02rem;
+	width: 20rem;
+	border-bottom: 1px dashed gray;
+	list-style: none;
+}
+
+.row > li:first-child {
+	width: 13rem;	
+}
+.row > li:nth-child(3) {
+	width: 17rem;
+}
+.row > li:last-child {
+	width: 10rem;
+	float: right;
+}
+
+
+h3 {
+	text-align: center;
+}
